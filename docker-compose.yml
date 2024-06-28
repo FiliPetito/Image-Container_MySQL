@@ -1,0 +1,12 @@
+  services:
+    db:
+      platform: linux/x86_64
+      image: mysql:8.0
+      container_name: smartShop
+      ports:
+        - "7000:3360"
+      environment:
+        - MYSQL_ROOT_PASSWORD=rootmysql
+        - MYSQL_USER=user
+        - MYSQL_PASSWORD=mysql
+        - MYSQL_DATABASE=mysql
