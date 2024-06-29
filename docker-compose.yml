@@ -5,7 +5,7 @@ services:
     image: filippopetito/smartshop:latest
     container_name: smartShop
     ports:
-      - "3306:3306"
+      - "3360:3360"
     environment:
       - MYSQL_ROOT_PASSWORD=rootmysql
       - MYSQL_USER=user
