@@ -11,4 +11,4 @@ ENV MYSQL_DATABASE=mydatabase
 COPY ./db_init.sql /docker-entrypoint-initdb.d/
 
 # Opzionale: esponi la porta di MySQL
-EXPOSE 3360
+EXPOSE 3306
